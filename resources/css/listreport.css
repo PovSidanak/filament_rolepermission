@@ -1,0 +1,27 @@
+.back-page1 {
+    background-color: var(--primary-color);
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    font-size: large;
+}
+.back-page1 :hover{
+    cursor: pointer;
+}
+:root{
+    /* ===== Colors ===== */
+    --body-color: #E4E9F7;
+    --sidebar-color: #FFF;
+    --primary-color: #695CFE;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
